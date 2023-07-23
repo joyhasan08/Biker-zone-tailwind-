@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biker-zone</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- tailwaind and disyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <style>
+        .font-pop{
+            font-family: 'Poppins', sans-serif;
+        }
+      </style>
+</head>
+<body>
+    <header class="">
+        <!-- nav bar -->
+        <nav class="font-pop max-w-screen-xl mx-auto">          
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                <a class="flex title-font font- items-center text-gray-900 mb-4 md:mb-0">
+                  
+                  <span class="ml-3 text-3xl font-bold">Bike Dekho</span>
+                </a>
+                <nav class="md:ml-auto flex flex-wrap items-center text-base font-semibold justify-center">
+                  <a class="mr-5 hover:text-gray-900">Home</a>
+                  <a class="mr-5 hover:text-gray-900">Shop</a>
+                  <a class="mr-5 hover:text-gray-900">News</a>
+                  <a class="mr-5 hover:text-gray-900">Contact</a>
+                </nav>
+                <button class="inline-flex items-center bg-[#E76F51] border-0 py-1 px-3 md:py-2 md:px-6 focus:outline-none hover:bg-gray-200 rounded md:text-xl text-bold font-bold mt-4 md:mt-0 text-white">login
+                </button>
+              </div>
+        </nav>
+        <section class="font-pop max-w-screen-xl  mx-auto">
+          <div class="carousel">
+
+            <div id="slide1" class="carousel-item relative w-full flex-col gap-5">
+              <div class=" relative md:absolute md:w-1/2  font-bold space-x-4 space-y-6 md:px-12 md:py ">
+                <h1 class=" text-xl pl-4 md:text-6xl md:pt-12 ">Ride-on R15 V4 with Smile</h1>
+                  <p class="text-xs md:text-4 font-light flex-wrap w-fit">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae recusandae animi, aspernatur vel aliquid possimus sunt qui aliquam sint asperiores laudantium quis non  aliasbr
+                  labore impedit.  Fugit tempore ipsa enim!.</p>
+                  <button class="inline-flex items-center bg-[#E76F51] border-0 py-1 px-3 md:py-2 md:px-6 focus:outline-none hover:bg-gray-200 rounded md:text-xl text-bold font-bold mt-4 mb-10 md:mt-0 text-white ">Purchase
+                  </button>
+              </div>
+              <img src="./src/harly (6).jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <div id="slide2" class="carousel-item relative w-full flex-col gap-5">
+              <div class=" relative md:absolute md:w-1/2  font-bold space-x-4 space-y-6 md:px-12 md:py ">
+                <h1 class=" text-xl pl-4 md:text-6xl md:pt-12 ">Ride-on R15 V4 with Smile</h1>
+                  <p class=" md:text-4 font-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae recusandae animi, aspernatur vel aliquid possimus sunt qui aliquam sint asperiores laudantium quis non alias labore impedit. Fugit tempore ipsa enim!.</p>
+                  <button class="inline-flex items-center bg-[#E76F51] border-0 py-1 px-3 md:py-2 md:px-6 focus:outline-none hover:bg-gray-200 rounded md:text-xl text-bold font-bold mt-4 mb-10 md:mt-0 text-white ">Purchase
+                  </button>
+              </div>
+              <img src="./src/harly (3).jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <div id="slide3" class="carousel-item relative w-full flex-col gap-5">
+              <div class=" relative md:absolute md:w-1/2  font-bold space-x-4 space-y-6 md:px-12 md:py ">
+                <h1 class=" text-xl pl-4 md:text-6xl md:pt-12 ">Ride-on R15 V4 with Smile</h1>
+                  <p class=" md:text-4 font-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae recusandae animi, aspernatur vel aliquid possimus sunt qui aliquam sint asperiores laudantium quis non alias labore impedit. Fugit tempore ipsa enim!.</p>
+                  <button class="inline-flex items-center bg-[#E76F51] border-0 py-1 px-3 md:py-2 md:px-6 focus:outline-none hover:bg-gray-200 rounded md:text-xl text-bold font-bold mt-4 mb-10 md:mt-0 text-white ">Purchase
+                  </button>
+              </div>
+              <img src="./src/harly (2).jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+            <div id="slide4" class="carousel-item relative w-full flex-col gap-5">
+              <div class=" relative md:absolute md:w-1/2  font-bold space-x-4 space-y-6 md:px-12 md:py ">
+                <h1 class=" text-xl pl-4 md:text-6xl md:pt-12 md:text-white ">Ride-on R15 V4 with Smile</h1>
+                  <p class=" md:text-4 font-light md:text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae recusandae animi, aspernatur vel aliquid possimus sunt qui aliquam sint asperiores laudantium quis non alias labore impedit. Fugit tempore ipsa enim!.</p>
+                  <button class="inline-flex items-center bg-[#E76F51] border-0 py-1 px-3 md:py-2 md:px-6 focus:outline-none hover:bg-gray-200 rounded md:text-xl text-bold font-bold mt-4 mb-10 md:mt-0 text-white ">Purchase
+                  </button>
+              </div>
+              <img src="./src/harly (1).jpg" class="w-full" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+
+
+
+
+          </div>
+        </section>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
